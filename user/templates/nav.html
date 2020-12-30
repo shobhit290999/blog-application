@@ -1,0 +1,283 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>LETSBLOG</title>
+    {% load static %}
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
+<!--
+
+TemplateMo 546 Sixteen Clothing
+
+https://templatemo.com/tm-546-sixteen-clothing
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'templatemo-sixteen.css' %}">
+    <link rel="stylesheet" href="{% static 'owl.css' %}">
+    <script src="https://use.fontawesome.com/9b269d5d9a.js"></script>
+
+  </head>
+
+  
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+   <!--<div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  -->
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>LETSBLOG </em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/user/">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="/user/about/">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/user/afterblog/">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/user/login/">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/user/signup/">Signup</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="banner header-text">
+      <div class="owl-banner owl-carousel">
+        <div class="banner-item-01">
+          <div class="text-content">
+            <h4>Let's Blog</h4>
+            <h3>Show the Worlds , Who you are!!!</h3>
+          </div>
+        </div>
+        <div class="banner-item-02">
+          <div class="text-content">
+            <h4>Express</h4>
+            <h2>Your emotions here</h2>
+          </div>
+        </div>
+        <div class="banner-item-03">
+          <div class="text-content">
+            <h4>create</h4>
+            <h2>your history</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+    <div class="latest-products">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Blogs </h2>
+             
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="#"><img src="{% static 'travel.jpg'%}" alt=""></a>
+              <div class="down-content">
+                <a href="/user/afterlogin/"><h4>Travel Blog</h4></a>
+                <h6>Let's Blog</h6>
+                <p>Travel blogs are becoming more popular each day. Due to cheap air travel, people are traveling more
+                   than ever, and they are always looking for travel tips, advice, and destination guides.</p>
+                   <a href="/user/afterlogin/"><span>start travel blog</span></a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="#"><img src="{% static 'music.jpg'%}" alt=""></a>
+              <div class="down-content">
+                <a href="/user/afterlogin/"><h4>Music Blog</h4></a>
+                <h6>Let's Blog</h6>
+                <p>Music blogs has a wide audience who search for critiques on the best and trending music.
+                   Music lovers enjoy songs from different languages, cultures and norms.</p>
+                
+                   <a href="/user/afterlogin/"><span>start music blog</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="#"><img src="{% static 'sport.jpg'%}" style="height:230px;" alt=""></a>
+              <div class="down-content">
+                <a href="#"><h4>Sports Blog</h4></a>
+                <h6>Let's Blog</h6>
+                <p>Sports blogs are another interesting type of blogs online. Every country in the world has different sports and every sport has its own stars. 
+                 Many organizations even pay for sports blogger. </p>
+               
+                  <a href="/user/afterlogin/"><span>start sports blog</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="#"><img src="{% static 'food.jpg'%}" style="height:230px;" alt=""></a>
+              <div class="down-content">
+                <a href="#"><h4>Food Blog</h4></a>
+                <h6>Let's Blog</h6>
+                <p>Food blogs are another popular blog type.
+                   It attracts a lot of readers who are interested in recipes, ingredients, healthy eating, fine dining, and other food related stories. </p>
+               
+                  <a href="/user/afterlogin/"><span>start Food blog</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="#"><img src="{% static 'fit.jpg'%}" style="height:230px;" alt=""></a>
+              <div class="down-content">
+                <a href="#"><h4>Fitness Blog</h4></a>
+                <h6>Let's Blog</h6>
+                <p>Fitness blogs has been a hot trend since they cover important topics like health 
+                  and general fitness. People all over the world rely on the internet to seek advice on how to stay fit. </p>
+               
+                  <a href="/user/afterlogin/"><span>start Fitness blog</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="#"><img src="{% static 'politics.jpg'%}" style="height:230px;" alt=""></a>
+              <div class="down-content">
+                <a href="#"><h4>Politics Blog</h4></a>
+                <h6>Let's Blog</h6>
+                <p>Political blogs have perhaps the most passionate audience of all. They cover news on politics,
+                   analysis of political news, and can quickly build a very large engaging audience. </p>
+               
+                  <a href="/user/afterlogin/"><span>start politics blog</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="best-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>About LETSBLOG</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="left-content">
+              <h4>Looking for the best Platform to express yourself?</h4>
+              <p>This Platform</a> is free to use for your blogging.
+                 However, you have no permission to write any content related to other's religious belief,caste,color,gender or any thing that is dicriminative in nature. </p>
+              <ul class="featured-list">
+                <li>Blogging Purpose</li>
+                <li>sharing views.</li>
+                <li>comment,like and share your blog on facebook </li>
+                <li>free to use</a></li>
+                
+              </ul>
+              <a href="/user/about/" class="filled-button">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-image">
+              <img src="{% static '4.jpg'%}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <p>Copyright &copy; 2020 LETSBLOG
+            
+             <a rel="nofollow noopener" href="#" target="_blank"></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'jquery.min.js' %}"></script>
+    <script src="{% static 'bootstrap.bundle.min.js' %}"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="{% static 'custom.js' %}"></script>
+    <script src="{% static 'owl.js' %}"></script>
+    <script src="{% static 'slick.js' %}"></script>
+
+    <script src="{% static 'isotope.js' %}"></script>
+
+    <script src="{% static 'accordions.js' %}"></script>
+
+
+
+
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
+</html>
